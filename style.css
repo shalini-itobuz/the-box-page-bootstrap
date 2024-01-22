@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+.vw{
+    width:100%;
+}
+.hero-section {
+    background: url("./images/hero/hero.png") no-repeat center ;
+    height: 80vh;
+    width: auto;
+    background-size: cover;
+    
+}
+.hero-feature {
+    height:180px;
+    width: 385px;
+}
+.card>img{
+    width:40px;
+    height:40px;
+
+}
+.card{
+   width:400px;
+   height: 200px;
+}
+.about-hero-img {
+    background: url("./images/aboutus/person.png") no-repeat center ;
+    height: 50vh;
+    width: 92%;
+    background-size: cover;
+}
+.about-text{
+    width:92%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.servicesection .card:hover{
+transform: scale(1.1);
+}
+
+.ads-section{
+    background: url("./images/ads/bck.png") no-repeat center ;
+    height:30vh;
+    width: 100vw;
+    background-size: cover;
+}
+.tag1{ top:30%; left:10%}
+.tag2{ top: 50%; left:10%}
+.consultationbutton{ top:70%;left:10%;padding: 10px;}
+.message{height:10vw}
+.form-section button{ margin-left: 45%;  ; width:25% ;height:8vw}
+.bottom-right{
+    top:100%;
+}
+.socialmedia:hover{
+    cursor: pointer;
+    background-color:blue;
+}
+
+
+
+@media(min-width:1200px){
+    .about-hero-img{
+        position: relative;
+        width:90%;
+        height: 40vw;
+    }
+    .about-text{
+        position: absolute;
+       left:60%;
+        width:35%;
+        height:25vw;
+    }
+    .services{
+        margin-left: 10%;
+    }
+    .form-section{margin-left: 20%; margin-right: 20%;}
+    .consultationbutton{ top:40%;left:80%;padding: 10px;}
+    
+    .form-section button{ margin-left: 45%;  ; width:20% ;height:3vw}
+}
